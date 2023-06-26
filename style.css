@@ -1,0 +1,232 @@
+body{
+    background-color: #FEFCF3;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    /*background-color: #968C83;*/
+    /*width: 100vw;*/
+}
+
+.main-menu{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.menu ul{
+    padding-left: 0;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.icon ul{
+    list-style: none;
+    /*fill:black;*/
+    padding-left: 0;
+}
+
+.icon svg{
+    fill: #5D534A;
+    transition: .2s ease-in-out 0s;
+}
+
+.icon svg:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    width: 35vw;
+    height: fit-content;
+    transition: .2s ease-in-out 0s;
+}
+
+.banner-image:hover{
+    width: 38vw;
+    cursor: pointer;
+}
+
+a {
+    outline: none;
+}
+  
+a:link {
+    color: #FFB3B3;
+}
+  
+a:visited {
+    color: #FFB3B3;
+    /*color: #FFDBA4;*/
+}
+
+/*
+a:focus {
+    text-decoration: underline;
+    background-color: #FFE9AE;
+}*/
+  
+.menu li:hover { /*cannot use a*/
+    text-decoration: wavy underline;
+    color: #FFE9AE;
+    cursor: pointer;
+}
+
+.bi-linkedin:hover{
+    fill: #0072b1;
+}
+
+.bi-instagram:hover{
+    fill: #E1306C;
+}
+
+.bi-discord:hover{
+    fill: #7289d9;
+}
+
+.bi-youtube:hover{
+    fill: #c4302b;
+}
+
+.intro-container{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.heading{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    color: #FFB3B3;
+    font-size: 50px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.intro-p{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin-block-start: 0;
+    color: #A8D8EA;
+
+}
+
+.separator{
+    border: dotted #D6D2C4 6px;
+    border-bottom: none;
+    width: 25%;
+}
+
+h2{
+    text-align: center;
+    /*font-family: 'Pangolin', cursive;*/
+    font-family: 'Sacramento', cursive;
+    color: #5D534A;
+    font-size: 30px;
+}
+
+.currentprojects-card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.card{
+    background-color: #F5EBE0;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.card-padding{
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.logo{
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    color: #5D534A;
+    margin-block-start: 13px;
+    margin-block-end: 3px;
+}
+
+.card-description{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.card-button-container{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+.card-button{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5D534A;
+    transition: .2s ease-in-out 0s;
+}
+
+.card-button svg{
+    display: block;
+    fill: #FEFCF3;
+}
+
+.card-button:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+.card-button svg:hover{
+    fill: #FEFCF3;
+}
+
+.instagram-button:hover{
+    background-color: #E1306C;
+}
+
+.discord-button:hover{
+    background-color: #7289d9;
+}
+
+.link-button:hover{
+    background-color: #D6D2C4;
+}
+
+.footer-hr{
+    border: dotted #D6D2C4 6px;
+    border-bottom: none;
+    width: 80%;
+}
+
+footer{
+    font-family: 'Rubik', sans-serif;
+    color: #5D534A;
+    text-align: center;
+}
